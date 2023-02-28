@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "my-productivity-app",
+    "libraryId": "e6072fb0-e18f-4e86-b526-4096a47fcd8b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "my-productivity-app",
+    "solutionShortDescription": "my-productivity-app description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

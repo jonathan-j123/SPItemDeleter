@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "my-productivity-app-client-side-solution",
+    "id": "e6072fb0-e18f-4e86-b526-4096a47fcd8b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "my-productivity-app description"
+      },
+      "longDescription": {
+        "default": "my-productivity-app description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "my-productivity-app Feature",
+        "description": "The feature that activates elements of the my-productivity-app solution.",
+        "id": "3e722aa7-40b2-4968-bc01-ae6017670414",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/my-productivity-app.sppkg"
+  }
+}
